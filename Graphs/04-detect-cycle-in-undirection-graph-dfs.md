@@ -4,11 +4,11 @@ Practice [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undire
 
 Given an undirected graph with V vertices and E edges, check whether it contains any cycle or not. 
 
-![Alt text](/images/graph-b.png)
+![Graph with no cycle](/images/graph-b.png)
 > No Cycle
 
 
-![Alt text](/images/graph-a.png)
+![graph with cycle](/images/graph-a.png)
 > Cycle exists
 
 ## Note
@@ -29,39 +29,39 @@ Visited array cannot be the only check here since for DFS the adjacent node can 
 
 ```
 void bfsOfGraphUtil(vector<vector<int>> &adj, vector<int> &ans, vector<bool> &visited)
-    {
-        queue<int> q;
-        q.push(0);
-        visited[0] = true;
+{
+    queue<int> q;
+    q.push(0);
+    visited[0] = true;
 
-        while(!q.empty())
+    while(!q.empty())
+    {
+        int currNode = q.front();
+        q.pop();
+        
+        ans.push_back(currNode);
+        
+        for(auto nextNode: adj[currNode])
         {
-            int currNode = q.front();
-            q.pop();
-            
-            ans.push_back(currNode);
-            
-            for(auto nextNode: adj[currNode])
-            {
-                if(!visited[nextNode]){
-                    visited[nextNode]=true;
-                    q.push(nextNode);
-                }
+            if(!visited[nextNode]){
+                visited[nextNode]=true;
+                q.push(nextNode);
             }
         }
+    }
 
-    }
-  
-  
-    // Function to return Breadth First Traversal of given graph.
-    vector<int> bfsOfGraph(vector<vector<int>> &adj) {
-        
-        vector<int> ans;
-        vector<bool> visited(adj.size(), false);
-        bfsOfGraphUtil(adj, ans, visited);
-        return ans;
-        
-    }
+}
+
+
+// Function to return Breadth First Traversal of given graph.
+vector<int> bfsOfGraph(vector<vector<int>> &adj) {
+    
+    vector<int> ans;
+    vector<bool> visited(adj.size(), false);
+    bfsOfGraphUtil(adj, ans, visited);
+    return ans;
+    
+}
 ```
 
 

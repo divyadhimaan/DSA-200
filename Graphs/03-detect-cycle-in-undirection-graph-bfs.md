@@ -24,45 +24,45 @@ Intiution:
 
 ```
 bool checkCycleBFS(vector<vector<int>>& adj, vector<bool> &visited, int source)
+{
+    queue<int> q;
+    q.push(source);
+    
+    while(!q.empty())
     {
-        queue<int> q;
-        q.push(source);
+        int curr = q.front();
+        q.pop();
         
-        while(!q.empty())
-        {
-            int curr = q.front();
-            q.pop();
+        if(visited[curr])
+            return true;
             
-            if(visited[curr])
-                return true;
-                
-            visited[curr] = true;
+        visited[curr] = true;
 
-            
-            for(auto dest: adj[curr])
+        
+        for(auto dest: adj[curr])
+        {
+            if(!visited[dest])
             {
-                if(!visited[dest])
-                {
-                    q.push(dest);
-                }
+                q.push(dest);
             }
         }
-        
-        return false;
     }
-  
-    // Function to detect cycle in an undirected graph.
-    bool isCycle(vector<vector<int>>& adj) {
-        vector<bool> visited(adj.size(), false);
-        
-        // Check every node to avoid  missing disconnected components
-        for(int i=0;i<adj.size();i++)
-        {
-            if(!visited[i] && checkCycleBFS(adj, visited, i))
-                return true;
-        }
-        return false;
+    
+    return false;
+}
+
+// Function to detect cycle in an undirected graph.
+bool isCycle(vector<vector<int>>& adj) {
+    vector<bool> visited(adj.size(), false);
+    
+    // Check every node to avoid  missing disconnected components
+    for(int i=0;i<adj.size();i++)
+    {
+        if(!visited[i] && checkCycleBFS(adj, visited, i))
+            return true;
     }
+    return false;
+}
 ```
 
 
