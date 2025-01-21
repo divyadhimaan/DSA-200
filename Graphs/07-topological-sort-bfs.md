@@ -5,6 +5,8 @@ Practice [Link](https://www.geeksforgeeks.org/problems/topological-sort/1)
 Topological Sort is a linear ordering of nodes such that if edge `u -> v` exists, then `u` appears before `v`.
 
 In-degree of a node: Number of incoming edges for a node
+
+
 ![Alt text](/images/graph-h.png)
 > In-degree of node 0: 0
 >
@@ -25,6 +27,9 @@ Graph can also be disconnected -> Check for every node as source/starting node.
 
 
 This can be possible only for `DAG ( Directed acyclic graph)` because in an undirected graph we can’t decide which node will come first because there will be no direction, and if there is a cycle topological order will not be possible (See below figure to understand why it is not possible for graphs containing cycle). For reference, see below image.
+
+
+
 ![exception-case](/images/graph-g.png)
 
 ## Intiution
