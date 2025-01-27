@@ -25,5 +25,5 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   [BFS](./Graphs/03-detect-cycle-in-undirection-graph-bfs.md), [DFS](./Graphs/04-detect-cycle-in-undirection-graph-dfs.md)
   - Detect Cycle in Directed Graph
   [BFS](./Graphs/06-detect-cycle-in-directed-graph-bfs.md), [DFS](./Graphs/05-detect-cycle-in-directed-graph-dfs.md)
-  - Topological Sort [BFS](./Graphs/07-topological-sort-bfs.md), [DFS](./Graphs/07-topological-sort-dfs)
+  - Topological Sort [BFS](./Graphs/07-topological-sort-bfs.md), [DFS](./Graphs/08-topological-sort-dfs)
   
