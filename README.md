@@ -26,4 +26,6 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - Detect Cycle in Directed Graph
   [BFS](./Graphs/06-detect-cycle-in-directed-graph-bfs.md), [DFS](./Graphs/05-detect-cycle-in-directed-graph-dfs.md)
   - Topological Sort [BFS](./Graphs/07-topological-sort-bfs.md), [DFS](./Graphs/08-topological-sort-dfs)
+  - [Number of islands](./Graphs/09-number-of-islands.md)
+  - Bipartite Graph [BFS](./Graphs/10-bipartite-graph), [DFS](./Graphs/11-bipartite-graph)
   
