@@ -29,3 +29,8 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Number of islands](./Graphs/09-number-of-islands.md)
   - Bipartite Graph [BFS](./Graphs/10-bipartite-graph), [DFS](./Graphs/11-bipartite-graph)
   
+
+- Dynamic Programming
+  - [Maximum Product Subarray](./dynamic-programming/01-maximum-product-subarray.md)
+  - [Longest Increasing Subsequence](./dynamic-programming/02-longest-increasing-subsequence.md)
+  - [Maximum Sum Increasing Subsequence](./dynamic-programming/06-maximum-sum-increasing-subsequence.md)
