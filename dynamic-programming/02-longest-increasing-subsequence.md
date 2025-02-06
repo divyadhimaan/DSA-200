@@ -6,6 +6,14 @@ Given an integer array nums, return the length of the longest strictly increasin
 subsequence.
 
 
+## Brute Force
+
+- Create all the subsequences
+- filter the increasing subsequences
+- pick the longest subsequence
+
+> O(2^n) -> TLE (Overlapping subproblems)
+
 ## DP Approach
 
 Intiution: 

@@ -33,4 +33,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 - Dynamic Programming
   - [Maximum Product Subarray](./dynamic-programming/01-maximum-product-subarray.md)
   - [Longest Increasing Subsequence](./dynamic-programming/02-longest-increasing-subsequence.md)
+  - [Longest Common Subsequence](./dynamic-programming/03-longest-common-subsequence.md)
+  - [0-1 Knapsack](./dynamic-programming/04-0-1-knapsack.md)
+  - [Edit Distance](./dynamic-programming/05-edit-distance.md)
   - [Maximum Sum Increasing Subsequence](./dynamic-programming/06-maximum-sum-increasing-subsequence.md)
+
+  -[Minimum Path Sum](./dynamic-programming/11-minimum-path-sum.md)
