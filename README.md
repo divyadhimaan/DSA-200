@@ -38,4 +38,5 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Edit Distance](./dynamic-programming/05-edit-distance.md)
   - [Maximum Sum Increasing Subsequence](./dynamic-programming/06-maximum-sum-increasing-subsequence.md)
 
-  -[Minimum Path Sum](./dynamic-programming/11-minimum-path-sum.md)
+  - [Minimum Path Sum](./dynamic-programming/11-minimum-path-sum.md)
+  - [Coin Change](./dynamic-programming/12-coin-change.md)
