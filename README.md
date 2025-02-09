@@ -40,3 +40,4 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
   - [Minimum Path Sum](./dynamic-programming/11-minimum-path-sum.md)
   - [Coin Change](./dynamic-programming/12-coin-change.md)
+  - [Partition Equal Subset Sum](./dynamic-programming/partition-equal-subset-sum.md)
