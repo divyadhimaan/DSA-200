@@ -18,8 +18,13 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 ### Topics
 
+- Linked List and Arrays
+  - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
+
 - Stacks and Queues
-  - [Next Greater Elements](./stacksAndQueues/06-next-greater-element.md)
+  - [Valid Parentheses](./stacksAndQueues/05-valid-parenthesis.md)
+  - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
+  - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
 
 - Graphs
   - [DFS Traversal](./Graphs/01-dfs-traversal.md)  
