@@ -18,6 +18,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 ### Topics
 
+- Stacks and Queues
+  - [Next Greater Elements](./stacksAndQueues/06-next-greater-element.md)
+
 - Graphs
   - [DFS Traversal](./Graphs/01-dfs-traversal.md)  
   - [BFS Traversal](./Graphs/02-bfs-traversal.md)
