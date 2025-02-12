@@ -22,7 +22,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
 
 - Stacks and Queues
-  - [Valid Parentheses](./stacksAndQueues/05-valid-parenthesis.md)
+  - [Balanced Parentheses](./stacksAndQueues/05-balanced-parenthesis.md)
   - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
   - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
 
