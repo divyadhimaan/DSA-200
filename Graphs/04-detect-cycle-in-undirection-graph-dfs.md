@@ -28,40 +28,37 @@ Visited array cannot be the only check here since for DFS the adjacent node can 
 ## Implementation
 
 ```
-void bfsOfGraphUtil(vector<vector<int>> &adj, vector<int> &ans, vector<bool> &visited)
-{
-    queue<int> q;
-    q.push(0);
-    visited[0] = true;
-
-    while(!q.empty())
+bool checkCycleDFS(vector<vector<int>>& adj, vector<bool> &visited, int source, int parent)
     {
-        int currNode = q.front();
-        q.pop();
         
-        ans.push_back(currNode);
+        visited[source]=true;
         
-        for(auto nextNode: adj[currNode])
+        for(auto dest: adj[source])
         {
-            if(!visited[nextNode]){
-                visited[nextNode]=true;
-                q.push(nextNode);
+            if(!visited[dest])
+            {
+                if(checkCycleDFS(adj, visited, dest, source))
+                    return true;
             }
+            else if(dest != parent)
+                return true;
         }
+        
+        return false;
     }
-
-}
-
-
-// Function to return Breadth First Traversal of given graph.
-vector<int> bfsOfGraph(vector<vector<int>> &adj) {
-    
-    vector<int> ans;
-    vector<bool> visited(adj.size(), false);
-    bfsOfGraphUtil(adj, ans, visited);
-    return ans;
-    
-}
+  
+    // Function to detect cycle in an undirected graph.
+    bool isCycle(vector<vector<int>>& adj) {
+        vector<bool> visited(adj.size(), false);
+        vector<int> visitedNodes;
+        
+        for(int i=0;i<adj.size();i++)
+        {
+            if(!visited[i] && checkCycleDFS(adj, visited, i, -1))
+                return true;
+        }
+        return false;
+    }
 ```
 
 
