@@ -16,6 +16,7 @@ Aim is to craete a `weighted`, `connected` and `undirected` graph.
 
 # Kruskal's Algorithm
 `Greedy Algorithm` -> Suitable for Sparse Graph
+Use DSU
 
 
 ## Intiution
