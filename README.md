@@ -46,6 +46,10 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - Shortest Path
     - [Dijkstra Algorithm](./Graphs/13-dijkstra-algo.md)
     - [Bellman-Ford Algorithm](./Graphs/14-bellman-ford.md)
+    - [Floyd Warshall Algorithm](./Graphs/15-floyd-warshall.md)
+  - Minimum Spanning Tree
+    - [Kruskal's Algorithm](./Graphs/16-kruskal-mst.md)
+    - [Prim's Algorithm]
   
 
 - Dynamic Programming
