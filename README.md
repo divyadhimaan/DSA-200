@@ -49,7 +49,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
     - [Floyd Warshall Algorithm](./Graphs/15-floyd-warshall.md)
   - Minimum Spanning Tree
     - [Kruskal's Algorithm](./Graphs/16-kruskal-mst.md)
-    - [Prim's Algorithm]
+    - [Prim's Algorithm](./Graphs/17-prim-mst.md)
   
 
 - Dynamic Programming
