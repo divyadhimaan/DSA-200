@@ -15,8 +15,9 @@ Aim is to craete a `weighted`, `connected` and `undirected` graph.
 
 
 # Prim's Algorithm
-`Greedy Algorithm` -> Suitable for Dense Graph
-Use Priority Queue -> minHeap
+`Greedy Algorithm` 
+- Suitable for Dense Graph
+- Use Priority Queue -> minHeap
 
 
 ## Intiution
