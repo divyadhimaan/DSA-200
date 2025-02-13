@@ -15,8 +15,7 @@ Aim is to craete a `weighted`, `connected` and `undirected` graph.
 
 
 # Prim's Algorithm
-`Greedy Algorithm` -> 
-Suitable for Dense Graph
+`Greedy Algorithm` -> Suitable for Dense Graph
 
 
 ## Intiution
@@ -40,40 +39,37 @@ Use priority_queue to pick the smallest weight edge.
 
 int spanningTree(int V, vector<vector<int>> adj[]) {
         
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
-        vector<bool> visited(V, false);
+    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+    vector<bool> visited(V, false);
+    
+    // wt -> v;
+    pq.push({0,0});
+    
+    int mstWeight = 0;
+    while(!pq.empty())
+    {
+        int wt = pq.top().first;
+        int u = pq.top().second;
+        pq.pop();
         
-        // wt -> v;
-        pq.push({0,0});
+        if(visited[u])
+            continue;
+            
+        mstWeight += wt;
+        visited[u] = true;
         
-        int mstWeight = 0;
-        while(!pq.empty())
+        for(auto it: adj[u])
         {
-            int wt = pq.top().first;
-            int u = pq.top().second;
-            pq.pop();
-            
-            if(visited[u])
-                continue;
-                
-            mstWeight += wt;
-            visited[u] = true;
-            
-            for(auto it: adj[u])
-            {
-                int v = it[0];
-                int w = it[1];
-                if(!visited[v])
-                    pq.push({w,v});
-            }
-            
+            int v = it[0];
+            int w = it[1];
+            if(!visited[v])
+                pq.push({w,v});
         }
-        return mstWeight;
         
     }
-
-TC -> O(ElogV)
-SC -> O(V^2)
+    return mstWeight;
+    
+}
 
 ```
 
