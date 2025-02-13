@@ -43,6 +43,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Number of islands](./Graphs/09-number-of-islands.md)
   - Bipartite Graph [BFS](./Graphs/10-bipartite-graph), [DFS](./Graphs/11-bipartite-graph)
   - [Strongly Connected Components](./Graphs/12-strongly-connected-components.md)
+  - Shortest Path
+    - [Dijkstra Algorithm](./Graphs/13-dijkstra-algo.md)
+    - [Bellman-Ford Algorithm](./Graphs/14-bellman-ford.md)
   
 
 - Dynamic Programming
