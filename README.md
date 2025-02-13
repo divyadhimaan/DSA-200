@@ -20,6 +20,10 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 - Linked List and Arrays
   - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
+  
+- Binary Search
+  - [Single Element](./binarySearch/03-element-appearing-once.md)
+  - [Search in Rotated Sorted Array](./binarySearch/04-search-in-rotated-sorted-array.md)
 
 - Stacks and Queues
   - [Balanced Parentheses](./stacksAndQueues/05-balanced-parenthesis.md)
