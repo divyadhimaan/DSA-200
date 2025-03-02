@@ -60,7 +60,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [0-1 Knapsack](./dynamic-programming/04-0-1-knapsack.md)
   - [Edit Distance](./dynamic-programming/05-edit-distance.md)
   - [Maximum Sum Increasing Subsequence](./dynamic-programming/06-maximum-sum-increasing-subsequence.md)
-
+  - [Matrix Chain multiplications](./dynamic-programming/07-matrix-chain-multiplication.md)
   - [Minimum Path Sum](./dynamic-programming/08-minimum-path-sum.md)
   - [Coin Change](./dynamic-programming/09-coin-change.md)
   - [Partition Equal Subset Sum](./dynamic-programming/10-partition-equal-subset-sum.md)
