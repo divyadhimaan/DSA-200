@@ -64,3 +64,5 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Minimum Path Sum](./dynamic-programming/08-minimum-path-sum.md)
   - [Coin Change](./dynamic-programming/09-coin-change.md)
   - [Partition Equal Subset Sum](./dynamic-programming/10-partition-equal-subset-sum.md)
+  - [Rod Cutting Problem](./dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
+  - 
