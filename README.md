@@ -65,4 +65,4 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Coin Change](./dynamic-programming/09-coin-change.md)
   - [Partition Equal Subset Sum](./dynamic-programming/10-partition-equal-subset-sum.md)
   - [Rod Cutting Problem](./dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
-  - 
+  - [Egg Dropping](./dynamic-programming/12-egg-dropping.md)
