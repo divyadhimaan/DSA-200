@@ -20,6 +20,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 - Linked List and Arrays
   - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
+
+- Greedy
+  - [Job Sequencing](./greedy/03-job-sequencing.md)
   
 - Binary Search
   - [Single Element](./binarySearch/03-element-appearing-once.md)
@@ -66,3 +69,4 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Partition Equal Subset Sum](./dynamic-programming/10-partition-equal-subset-sum.md)
   - [Rod Cutting Problem](./dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
   - [Egg Dropping](./dynamic-programming/12-egg-dropping.md)
+  - [Job Sequencing](./dynamic-programming/15-job-sequencing.md)
