@@ -70,3 +70,6 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Rod Cutting Problem](./dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
   - [Egg Dropping](./dynamic-programming/12-egg-dropping.md)
   - [Job Sequencing](./dynamic-programming/15-job-sequencing.md)
+
+- Trie
+  - [Implement Trie](./trie/01-implement-trie.md)
