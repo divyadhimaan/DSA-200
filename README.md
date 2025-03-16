@@ -74,3 +74,4 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 - Trie
   - [Implement Trie](./trie/01-implement-trie.md)
   - [Implement Trie 2](./trie/02-implement-trie-ii.md)
+  - [Complete String](./trie/03-complete-string.md)
