@@ -1,6 +1,6 @@
 # Implement Trie - II
 
-Practice [Link](https://www.naukri.com/code360/problems/implement-trie_1387095?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos)
+Practice [Link](https://www.naukri.com/code360/problems/implement-trie_1387095)
 
 
 Ninja has to implement a data structure ”TRIE” from scratch. Ninja has to complete some functions.
