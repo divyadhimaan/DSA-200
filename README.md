@@ -36,6 +36,10 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
   - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
 
+- Binary Trees Miscelleneous
+  - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
+  - [Flood Fill](./binaryTreesMisc/06-flood-fill.md)
+
 - Graphs
   - [DFS Traversal](./Graphs/01-dfs-traversal.md)  
   - [BFS Traversal](./Graphs/02-bfs-traversal.md)
