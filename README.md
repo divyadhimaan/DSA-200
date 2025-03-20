@@ -40,6 +40,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
   - [Kth Largest in a Stream](./binaryTreesMisc/03-kth-largest-in-stream.md)
   - [Distinct Numbers in a Window](./binaryTreesMisc/04-distinct-numbers-in-window.md)
+  - [Kth Largest in Unsorted Array](./binaryTreesMisc/05-kth-largest-in-unsorted-array.md)
   - [Flood Fill](./binaryTreesMisc/06-flood-fill.md)
 
 - Graphs
