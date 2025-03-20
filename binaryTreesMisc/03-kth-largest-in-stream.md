@@ -11,6 +11,34 @@ Implement the KthLargest class:
 `int add(int val)`: Adds a new test score val to the stream and returns the element representing the kth largest element in the pool of test scores so far.
 
 
+## Brute Force -> Sorting + Set
+
+```cpp
+class KthLargest {
+public:
+    vector<int> nums;
+    int k;
+    
+    KthLargest(int k, vector<int>& nums) {
+        this->k = k;
+        this->nums = nums;
+    }
+    
+    int add(int val) {
+        nums.push_back(val);
+        sort(nums.rbegin(), nums.rend());  // Sort in descending order
+        return nums[k-1];  // k-th largest
+    }
+};
+```
+
+> Time Complexity: `O(nlogn)`, Very slow for large n, since sorting takes O(nlogn) each time
+>
+> Space Complexity: O(n)
+
+
+## MinHeap Implementation
+
 ```cpp
 class KthLargest {
 public:
