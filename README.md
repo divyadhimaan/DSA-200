@@ -32,6 +32,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 - Stacks and Queues
   - [Stack using Array](./stacksAndQueues/01-stack-using-array.md)
   - [Queue using Array](./stacksAndQueues/02-queue-using-array.md)
+  - [Stack using Queues](./stacksAndQueues/03-stack-using-queues.md)
   - [Balanced Parentheses](./stacksAndQueues/05-balanced-parenthesis.md)
   - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
   - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
