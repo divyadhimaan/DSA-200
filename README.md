@@ -18,7 +18,11 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 ### Topics
 
+- Arrays
+  - [2 Sum](./Arrays/19-2-sum.md)
+
 - Linked List and Arrays
+  - [3 Sum](./LinkedListAndArrays/03-3-sum.md)
   - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
 
 - Greedy
