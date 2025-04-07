@@ -23,6 +23,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [4 Sum](./Arrays/20-4-sum.md)
   - [Longest Consecutive Sequence](./Arrays/21-longest-consecutive-sequence.md)
 
+- Linked List
+  - [Remove Nth node from end](./linkedList/04-remove-nth-node-from-end.md)
+
 - Linked List and Arrays
   - [3 Sum](./LinkedListAndArrays/03-3-sum.md)
   - [Trapping Rain Water](./LinkedListAndArrays/trapping-rain-water.md)
