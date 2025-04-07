@@ -20,6 +20,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 
 - Arrays
   - [2 Sum](./Arrays/19-2-sum.md)
+  - [4 Sum](./Arrays/20-4-sum.md)
 
 - Linked List and Arrays
   - [3 Sum](./LinkedListAndArrays/03-3-sum.md)
