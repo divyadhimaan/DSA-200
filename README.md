@@ -22,6 +22,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [2 Sum](./Arrays/19-2-sum.md)
   - [4 Sum](./Arrays/20-4-sum.md)
   - [Longest Consecutive Sequence](./Arrays/21-longest-consecutive-sequence.md)
+  - [Count Subarray with Given XOR](./Arrays/23-number-of-subarrays-with-given-xor.md)
 
 - Linked List
   - [Remove Nth node from end](./linkedList/04-remove-nth-node-from-end.md)
