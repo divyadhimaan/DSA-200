@@ -59,6 +59,10 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Kth Largest in Unsorted Array](./binaryTreesMisc/05-kth-largest-in-unsorted-array.md)
   - [Flood Fill](./binaryTreesMisc/06-flood-fill.md)
 
+- Binary Search Tree
+  - [Floor in BST](./binarySearchTree/08-floor-in-BST.md)
+  - [Ceil in BST](./binarySearchTree/09-ceil-in-bst.md)
+
 - Graphs
   - [DFS Traversal](./Graphs/01-dfs-traversal.md)  
   - [BFS Traversal](./Graphs/02-bfs-traversal.md)
