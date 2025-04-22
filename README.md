@@ -39,6 +39,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Single Element](./binarySearch/03-element-appearing-once.md)
   - [Search in Rotated Sorted Array](./binarySearch/04-search-in-rotated-sorted-array.md)
   - [Median of Two sorted Arrays](./binarySearch/05-median-of-two-sorted-arrays.md)
+  - [Kth elemeny in Two sorted Arrays](./binarySearch/06-kth-element-in-two-sorted-arrays.md)
 
 - Stacks and Queues
   - [Stack using Array](./stacksAndQueues/01-stack-using-array.md)
