@@ -1,5 +1,7 @@
 # K-th element of two Arrays
 
+Practice [Link](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1)
+
 Given two sorted arrays a[] and b[] and an element k, the task is to find the element that would be at the kth position of the combined sorted array.
 
 ## Naive Solution
