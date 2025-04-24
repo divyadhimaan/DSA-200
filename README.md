@@ -41,6 +41,10 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Median of Two sorted Arrays](./binarySearch/05-median-of-two-sorted-arrays.md)
   - [Kth elemeny in Two sorted Arrays](./binarySearch/06-kth-element-in-two-sorted-arrays.md)
   - [Allocate books](./binarySearch/07-allocates-books.md)
+  
+- Heaps
+  - [Kth Largest](./heaps/02-kth-largest.md)
+  - [Maximum Sum Combination](./heaps/03-maximum-sum-combinations.md)
 
 - Stacks and Queues
   - [Stack using Array](./stacksAndQueues/01-stack-using-array.md)
