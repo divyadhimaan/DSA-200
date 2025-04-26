@@ -1,5 +1,7 @@
 # Maximum Sum Combination
 
+Practice [Link](https://www.geeksforgeeks.org/problems/maximum-sum-combination/0)
+
 Given two integer array A and B of size N each.
 A sum combination is made by adding one element from array A and another element of array B.
 Return the maximum K valid sum combinations from all the possible sum combinations.
@@ -30,3 +32,11 @@ class Solution {
     }
 };
 ```
+
+
+> Time Complexity: O(n^2)
+>
+> Space Complexity: O(n)
+
+## Better Approach
+
