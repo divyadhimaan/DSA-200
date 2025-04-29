@@ -45,6 +45,8 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 - Heaps
   - [Kth Largest](./heaps/02-kth-largest.md)
   - [Maximum Sum Combination](./heaps/03-maximum-sum-combinations.md)
+  - [Find Median in Data Stream](./heaps/04-median-from-stream.md)
+  - [Merge K sorted Arrays](./heaps/05-merge-k-sorted-arrays.md)
 
 - Stacks and Queues
   - [Stack using Array](./stacksAndQueues/01-stack-using-array.md)
