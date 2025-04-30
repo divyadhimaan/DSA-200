@@ -36,6 +36,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Job Sequencing](./greedy/03-job-sequencing.md)
   
 - Binary Search
+- 
   - [Single Element](./binarySearch/03-element-appearing-once.md)
   - [Search in Rotated Sorted Array](./binarySearch/04-search-in-rotated-sorted-array.md)
   - [Median of Two sorted Arrays](./binarySearch/05-median-of-two-sorted-arrays.md)
