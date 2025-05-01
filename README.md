@@ -60,7 +60,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
   - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
   - [LRU cache](./stacksAndQueues/09-lru-cache.md)
-  - [LFU Cache]
+  - [LFU Cache](./stacksAndQueues/10-lfu-cache.md)
   - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
   - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
 
