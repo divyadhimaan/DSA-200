@@ -99,6 +99,8 @@ public:
  */
 ```
 
+> The functions `get()` and `put()` each run in O(1) average time complexity.
+
 
 ## JAVA Implementation
 

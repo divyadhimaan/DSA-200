@@ -44,6 +44,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Allocate books](./binarySearch/07-allocates-books.md)
   
 - Heaps
+  - [Binary Heap Implementation](./heaps/01-binary-heap.md)
   - [Kth Largest](./heaps/02-kth-largest.md)
   - [Maximum Sum Combination](./heaps/03-maximum-sum-combinations.md)
   - [Find Median in Data Stream](./heaps/04-median-from-stream.md)
@@ -58,6 +59,8 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Balanced Parentheses](./stacksAndQueues/05-balanced-parenthesis.md)
   - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
   - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
+  - [LRU cache](./stacksAndQueues/09-lru-cache.md)
+  - [LFU Cache]
   - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
   - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
 
