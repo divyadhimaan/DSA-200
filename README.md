@@ -62,6 +62,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [LRU cache](./stacksAndQueues/09-lru-cache.md)
   - [LFU Cache](./stacksAndQueues/10-lfu-cache.md)
   - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
+  - [Sliding Window maximum](./stacksAndQueues/12-sliding-window-max.md)
   - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
 
 - Binary Trees Miscelleneous
