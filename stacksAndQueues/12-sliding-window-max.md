@@ -39,7 +39,7 @@ public:
 - We need to push new element and pop old element from window at same time ->  queue
 - Keep maximum for every window -> monotonic stack (Stores descreasing elements)
 
-> Better to use a dequeue instead of using two data structures
+> Better to use a deque instead of using two data structures
 
 
 ```cpp
