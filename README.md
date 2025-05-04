@@ -63,7 +63,9 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [LFU Cache](./stacksAndQueues/10-lfu-cache.md)
   - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
   - [Sliding Window maximum](./stacksAndQueues/12-sliding-window-max.md)
+  - [Implement Min Stack](./stacksAndQueues/13-min-stack.md)
   - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
+  - [Stock Span](./stacksAndQueues/15-stock-span.md)
 
 - Binary Trees Miscelleneous
   - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
