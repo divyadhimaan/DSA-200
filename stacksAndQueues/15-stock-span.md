@@ -10,7 +10,7 @@ The span of the stock's price in one day is the maximum number of consecutive da
 Implement the `StockSpanner` class:
 
 `StockSpanner()` Initializes the object of the class.
-`int next(int price)` Returns the span of the stock's price given that today's price is price.
+`int next(int price)` Returns the span of the stock's price given that today's price is `price`.
 
 ```cpp
 class StockSpanner {
