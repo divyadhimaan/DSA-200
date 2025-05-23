@@ -51,3 +51,50 @@ public:
 >
 > Space Complexity: O(w), w -> number of words
 
+
+### Two pointer Approach
+
+```cpp
+class Solution {
+public:
+    string reverseWords(string s) {
+        int n = s.length();
+        int left = 0, right = n-1;
+
+
+        while (left < n && s[left] == ' ') left++; //skip any leading spaces
+        while (right >= 0 && s[right] == ' ') right--; //skip any trailing spaces
+
+        string temp = "", ans="";
+
+        while(left<=right)
+        {
+            char ch = s[left];
+            if(ch!=' ')
+                temp += ch;
+            else{
+                if(ans!="")
+                    ans = temp + " " + ans;
+                else
+                    ans = temp;
+                temp="";
+                while (left + 1 <= right && s[left + 1] == ' ') left++; // skip any extra spaces
+            }
+
+            left++;
+        }
+        if(temp!="")
+        {
+            if(ans!="")
+                    ans = temp + " " + ans;
+            else
+                ans = temp;
+        }
+        return ans;
+    }
+};
+```
+
+> Time Complexity: O(n)
+>
+> Space Complexity: O(1)
