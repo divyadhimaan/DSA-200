@@ -69,6 +69,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   
 - Strings
   - [Reverse Words in a String](./Strings/01-reverse-words-in-string.md)
+  - [Longest Plaindromic Substring](./Strings/02-longest-palindrome-substring.md)
 
 - Binary Trees Miscelleneous
   - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
