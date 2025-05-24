@@ -67,7 +67,6 @@ public:
 - Useful when you want to track all palindromic substrings, not just the longest one -> can store all the palindromes.
 - Explicitly stores subproblem solutions
 - But O(n^2) space → heavy on memory
-- 
 
 ```cpp
 class Solution {
@@ -119,7 +118,7 @@ public:
 >
 > Space Coomplexity: O(n^2)
 
-
+## Comparison
 
 | Approach             | Time  | Space | Complexity | Use When                            |
 | -------------------- | ----- | ----- | ---------- | ----------------------------------- |
