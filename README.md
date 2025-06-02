@@ -70,6 +70,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
 - Strings
   - [Reverse Words in a String](./Strings/01-reverse-words-in-string.md)
   - [Longest Plaindromic Substring](./Strings/02-longest-palindrome-substring.md)
+  - [Roman to Int and vice-versa](./Strings/03-roman-to-int.md)
   - [Longest Common Prefix](./Strings/05-longest-common-prefix.md)
   - [Check Anagrams](./Strings/10-check-anagrams.md)
   - [Count and Say](./Strings/11-count-and-say.md)
