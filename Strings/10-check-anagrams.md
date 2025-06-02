@@ -23,7 +23,7 @@ bool isAnagram(string s, string t) {
 >
 > Space Complexity: O(1)
 
-## Hash Map
+## One Hash Map 
 
 ```cpp
 class Solution {
@@ -54,6 +54,28 @@ public:
 >
 > Space Complexity: O(1)
 
+
+## Two Hashmaps
+
+```cpp
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if(s.length() != t.length()){
+            return false;
+        }
+        int n = s.length();
+
+        unordered_map<int,int> counts;
+        unordered_map<int,int> countt;
+        for(int i=0;i<n;i++){
+            counts[s[i]]++;
+            countt[t[i]]++;
+        }
+        return counts == countt; 
+    }
+};
+```
 
 # Selecting Approach
 
