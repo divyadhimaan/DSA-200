@@ -1,6 +1,6 @@
 # String to Integer (atoi)
 
-Practice [Link](https://leetcode.com/problems/compare-version-numbers/description/)
+Practice [Link](https://leetcode.com/problems/string-to-integer-atoi/description/)
 
 ```cpp
 class Solution {
@@ -49,3 +49,7 @@ public:
     }
 };
 ```
+
+> Time Complexity: O(n)
+> 
+> Space Complexity: O(1)

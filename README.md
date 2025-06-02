@@ -72,6 +72,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Longest Plaindromic Substring](./Strings/02-longest-palindrome-substring.md)
   - [Roman to Int and vice-versa](./Strings/03-roman-to-int.md)
   - [Longest Common Prefix](./Strings/05-longest-common-prefix.md)
+  - [String to integer](./Strings/04-implement-atoi.md)
   - [Check Anagrams](./Strings/10-check-anagrams.md)
   - [Count and Say](./Strings/11-count-and-say.md)
   - [Compare Versions](./Strings/12-compare-versions.md)
