@@ -73,6 +73,7 @@ This comprehensive guide is designed to help you excel in Data Structures and Al
   - [Longest Common Prefix](./Strings/05-longest-common-prefix.md)
   - [Check Anagrams](./Strings/10-check-anagrams.md)
   - [Count and Say](./Strings/11-count-and-say.md)
+  - [Compare Versions](./Strings/12-compare-versions.md)
 
 - Binary Trees Miscelleneous
   - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
